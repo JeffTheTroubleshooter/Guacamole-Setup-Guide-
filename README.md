@@ -42,7 +42,7 @@ make install
 ldconfig
 ```
 
-## Step 6 Run guacd as a Service (systemd)
+## Step 6 Run guacd as a Service (Systemd)
 ```
 chmod +x /usr/local/sbin/guacd <--- make this executable 
 ```
