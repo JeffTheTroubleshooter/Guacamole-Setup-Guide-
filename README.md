@@ -1,7 +1,7 @@
 # Guacamole-Setup-Guide-
 Instructions on how to setup Apache Guacamole Server with Database
 
-### Video Guide
+## Youtube Video Guide
 https://youtu.be/v_XuHrTRRpQ
 
 ## Step 1 Download the require packages
