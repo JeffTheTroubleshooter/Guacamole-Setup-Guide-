@@ -8,6 +8,10 @@ https://youtu.be/v_XuHrTRRpQ
 ```
 sudo apt install gcc libcairo2-dev libpng-dev libtool-bin uuid-dev libossp-uuid-dev make pkg-config libssh2-1-dev libpango1.0-dev libssl-dev cmake git ninja-build build-essential libkrb5-dev libxi-dev libcups2-dev libfuse3-dev pkg-config libusb-1.0-0-dev mysql-server libvncserver-dev xxd apache2-utils
 ```
+```
+sudo dnf install gcc libcairo2-dev libpng-dev libtool-bin uuid-dev libossp-uuid-dev make pkg-config libssh2-1-dev libpango1.0-dev libssl-dev cmake git ninja-build build-essential libkrb5-dev libxi-dev libcups2-dev libfuse3-dev pkg-config libusb-1.0-0-dev mysql-server libvncserver-dev xxd apache2-utils
+```
+
 ## Step 2 Download the Required files
 ```
 wget https://apache.org/dyn/closer.lua/guacamole/1.6.0/source/guacamole-server-1.6.0.tar.gz?action=download https://apache.org/dyn/closer.lua/guacamole/1.6.0/binary/guacamole-auth-jdbc-1.6.0.tar.gz?action=download https://apache.org/dyn/closer.lua/guacamole/1.6.0/binary/guacamole-1.6.0.war?action=download https://download.java.net/java/GA/jdk25.0.2/b1e0dfa218384cb9959bdcb897162d4e/10/GPL/openjdk-25.0.2_linux-x64_bin.tar.gz https://pub.freerdp.com/releases/freerdp-2.9.0.tar.gz https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.115/bin/apache-tomcat-9.0.115.tar.gz https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-9.6.0.tar.gz
