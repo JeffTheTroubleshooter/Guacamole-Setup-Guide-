@@ -104,6 +104,8 @@ mv guacamole-auth-jdbc-mysql-1.6.0.jar /etc/guacamole/extensions/
 ```
 cat schema/*.sql | mysql -u root -p guacamole_db
 ```
+
+# Move the Connector .jar file
 ```
 tar -xvf mysql-connector-j-9.6.0.tar.gz
 cd mysql-connector-j-9.6.0
