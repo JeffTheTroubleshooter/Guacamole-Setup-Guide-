@@ -1,5 +1,5 @@
 # Guacamole-Setup-Guide-
-Instructions on how to setup Apache Guacamole Server with Database
+Instructions on how to setup Apache Guacamole Server with Database and Protocols RDP,VNC & SSH
 
 ## Youtube Video Guide
 https://youtu.be/v_XuHrTRRpQ
