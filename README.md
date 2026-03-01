@@ -13,8 +13,8 @@ wget https://apache.org/dyn/closer.lua/guacamole/1.6.0/source/guacamole-server-1
 
 ## Step 3 Setup the Database
 
-mysql
-
+First go to mysql
+```
 CREATE DATABASE guacamole_db;
 CREATE USER 'guacamole_user'@'127.0.0.1' IDENTIFIED BY '123456';
 GRANT ALL PRIVILEGES ON guacamole_db.* TO 'guacamole_user'@'127.0.0.1';
@@ -22,6 +22,8 @@ FLUSH PRIVILEGES;
 EXIT;
 
 ## Step 4 Install FreeRDP-2.9.0
+```
+```
 tar -xvf freerdp-2.9.0.tar.gz
 mkdir freerdp-2.9.0/build
 cd ~/freerdp-2.9.0/build
@@ -29,14 +31,20 @@ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DWITH_CLIENT=OFF -
 make -j$(nproc)
 make install
 ldconfig
-
+```
 ## Step 5 Install Apache Guacamole Server
 mv guacamole-server-1.6.0.tar.gz\?action\=download guacamole-server-1.6.0.tar.gz
+
 tar -xvf guacamole-server-1.6.0.tar.gz
+
 cd guacamole-server-1.6.0
+
 ./configure
+
 make
+
 make install
+
 ldconfig
 
 ## Step 6 Run guacd as a Service (systemd)
@@ -47,6 +55,7 @@ nano /etc/systemd/system/guacd.service
 
 [Unit]
 Description=Guacamole Proxy Daemon
+
 After=network.target
 
 [Service]
