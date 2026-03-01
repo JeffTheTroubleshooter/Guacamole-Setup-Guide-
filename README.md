@@ -65,7 +65,7 @@ Group=root
 [Install]
 WantedBy=multi-user.target
 ```
-# Reload the Systemd
+# Reload the Systemd Service
 ```
 systemctl daemon-reload
 systemctl enable guacd
