@@ -20,9 +20,8 @@ CREATE USER 'guacamole_user'@'127.0.0.1' IDENTIFIED BY '123456';
 GRANT ALL PRIVILEGES ON guacamole_db.* TO 'guacamole_user'@'127.0.0.1';
 FLUSH PRIVILEGES;
 EXIT;
-
-## Step 4 Install FreeRDP-2.9.0
 ```
+## Step 4 Install FreeRDP-2.9.0
 ```
 tar -xvf freerdp-2.9.0.tar.gz
 mkdir freerdp-2.9.0/build
